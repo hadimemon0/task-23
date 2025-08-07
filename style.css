@@ -71,3 +71,47 @@ body {
         opacity: 0;
     }
 }
+/* Small Tablets (≥600px) */
+@media (min-width: 300px) {
+  img {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  img {
+    margin: auto;
+    display: block;
+  }
+}
+
+/* Tablets and Small Laptops (≥768px) */
+@media (min-width: 768px) {
+  .hero-section {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+     text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+/* Desktops (≥1024px) */
+@media (min-width: 1024px) {
+
+  img {
+    margin-left: 0px;
+  }
+}
+
+/* Large Screens (≥1440px) */
+@media (min-width: 1440px) {
+  img {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+     text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
