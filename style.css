@@ -99,8 +99,11 @@ body {
 
 /* Desktops (≥1024px) */
 @media (min-width: 1024px) {
-
   img {
+     text-align: left;
+     text-align: center;
+    justify-content: center;
+    justify-items: center;
     margin-left: 0px;
   }
 }
